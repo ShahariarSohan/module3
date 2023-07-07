@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    margin-bottom:30px;
+}
+.inp{
+    margin-bottom:10px;
+    width:200px;
+    height:25px;
+    border:2px solid red;
+    border-radius: 5px;
+   
+}
+.story-form{
+    margin-top:30px;
+    color:white;
+    padding:20px;
+    margin:auto;
+    width:80%;
+    background-image: url("/images/Background2.png");
+    background-repeat: no-repeat;
+    ;
+}
+.txt{
+    border:2px solid red;
+    border-radius: 5px;
+   
+}
+.submit{
+    background-color: red;
+    color:white;
+    width:110px;
+    padding:5px;
+    border: none;
+    border-radius: 2px ;
+    margin-bottom:10px;
+    
+}
