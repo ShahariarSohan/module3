@@ -1,8 +1,17 @@
-ul{
+nav > ul{
     display:flex;
 }
 li{
     list-style: none;
     margin-left:20px;
     padding:20px;
+}
+li ul{
+    display:none;
+    position:absolute;
+    margin-right: 10px;
+}
+li:hover> .dropdown{
+    display:block;
+    background-color: #a29bfe;
 }
