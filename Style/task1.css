@@ -1,0 +1,17 @@
+.box{
+    background-color:#7f8c8d ;
+    width:60%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.box1{
+    margin:20px;
+}
+.common{
+    margin-bottom:10px;
+}
+#img1{
+    
+    width:300px;
+    height:300px;
+}
