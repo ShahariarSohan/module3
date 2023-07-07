@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <style>
+        label{display:block;
+        margin-bottom:10px;    
+        }
+
+    </style>
+</head>
+<body>
+   <header></header>
+   <main>
+      <form action="">
+        <label for="nam">Name
+            <input id="nam"type="text" placeholder="somethintg"></label>
+        <label for="email">Email
+            <input id="email" type="email" placeholder="somethintg"></label>
+        <label for="pass">Password
+            <input id="pass"type="password" placeholder="somethintg"></label>
+        <label for="num">Number
+            <input id="num" type="number" placeholder="somethintg">
+        </label>
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="red">
+                <input id="red" name="r"type="radio">Female
+            </label>
+            <label for="rad">
+                <input id="rad"type="radio"name="r">Male
+            </label><label for="rat">
+                <input id="rat"type="radio"name="r">Other
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select Items</legend>
+            <label for="biri">
+                <input id="biri"
+                type="checkbox">Biriyani
+            </label>
+            <label for="bef">
+                <input id="bef"type="checkbox"
+                >Beef
+            </label>
+            <label for="met">
+                <input id="met"type="checkbox"
+                >Meet
+            </label>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+      </form>
+   </main>
+   <footer></footer>
+</body>
+</html>
