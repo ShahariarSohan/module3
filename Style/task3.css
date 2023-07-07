@@ -1,0 +1,11 @@
+table{
+    border:2px solid red;
+    margin:auto;
+}
+td,th{
+    border:2px solid red;
+    padding:5px 10px;
+}
+h1{
+    text-align:center;
+}
